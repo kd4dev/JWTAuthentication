@@ -21,6 +21,8 @@ A Node.js authentication API using JWT, PostgreSQL, and Drizzle ORM. It supports
 
 ## What You Learned
 
+- Difference between session based and token based authentication
+- Pros's and cons's of session based and token based auth  system
 - Setting up an Express server with modular routing
 - Using Drizzle ORM for database operations
 - Implementing JWT authentication and middleware
