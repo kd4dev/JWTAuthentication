@@ -2,7 +2,7 @@ import db from "../db/index.js";
 import jwt from 'jsonwebtoken';
 import { randomBytes, createHmac } from "node:crypto";
 import { eq } from "drizzle-orm";
-import { usersTable, userSessions } from "../db/schema.js";
+import { usersTable, userSessions } from "../models/schema.js";
 
 export const updateName=async function (req, res) {
   const{name}=req.body;

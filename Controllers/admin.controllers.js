@@ -1,4 +1,4 @@
-import { usersTable } from "../db/schema.js";
+import { usersTable } from "../models/schema.js";
 import db from "../db/index.js"
 
 export const getUsers=async function (req, res)  {
