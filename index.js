@@ -2,7 +2,7 @@ import express from "express";
 import jwt from "jsonwebtoken";
 import db from "./db/index.js";
 import { eq } from "drizzle-orm";
-import { usersTable, userSessions } from "./db/schema.js";
+import { usersTable, userSessions } from "./models/schema.js";
 import {authenticationMiddleware} from './middleware/auth.middleware.js'
 import adminRouter from "./routes/admin.routes.js";
 import userRouter from "./routes/user.routes.js";
